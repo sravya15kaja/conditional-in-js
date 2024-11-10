@@ -59,6 +59,41 @@
             default:
                 console.log(" Your entered is invalid day");
         }
+        // task 2 
+        var light=prompt("enter your color");
+        switch(light){
+            case "Red":
+                console.log("Stop ! Its showing red");
+                break;
+            case "Yellow":
+                console.log("Ok ! It's time to get ready ");
+                break;
+            case "Green":
+                console.log("You can go Now");
+                break;
+            default:
+                console.log("You enter color is incorrect");
+        }
+        // task 3
+        var Amount=prompt("Enter the Amount you purchased");
+        if(Amount < 50){
+            console.log(Amount,"Oh! We are not having discount for you");
+        }
+        else
+        if(Amount>=50 && Amount<=100){
+            console.log(Amount,"Yes We have 5% discont for you");
+        }
+        else
+        if(Amount>=101 && Amount<=200){
+            console.log(Amount,"Yes We have 10% discont for you");
+        }
+        else
+        if(Amount>200){
+            console.log(Amount,"Yes We have 15% discont for you");
+        }
+        else{
+            console.log(Amount,"You entered is not correct");
+        }
     </script>
 </body>
 </html>
